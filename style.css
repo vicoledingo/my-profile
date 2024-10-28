@@ -1,0 +1,118 @@
+body {
+ background-color:rgb(0, 148, 64 ) ;
+ color:rgb(255, 203, 0 ) ;
+ font-family: "Lato", serif;
+ font-size: 15px;
+ margin: 20px;
+}
+
+#vico{width:150px;
+	  border-radius: 50%;
+	}
+
+h1, h2, h3 {
+ font-family: "Lato", serif;
+ text-align:auto ;
+}
+
+h1 {
+ padding: 10px;	
+ font-size: 30px;
+ font-weight:bold ;
+ text-decoration: rgb(48, 38, 129 )underline;
+ 
+}
+
+h2 {
+ font-size: 20px;
+ font-weight:900 ;
+}
+
+p {
+ font-weight: 10px;
+ line-height: 1.6;
+}
+
+a {
+  color:rgb(255, 203, 0 ) ;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: rgb(48, 38, 129 );
+}
+
+
+img {
+ border-radius: 10%;
+ margin-top:3% ;
+}
+
+
+li {
+ border-radius: 10% ;
+ display: inline;
+ margin: 10px auto;
+}
+
+div {
+  background-color: rgb(0, 148, 64 );
+}
+
+.container {
+width: 650px;
+margin: 20px auto;
+}
+
+.card-white {
+background-color:background-color:rgb(0, 148, 64 ) ;
+padding: 20px;
+box-shadow: 10px 5px 50px rgb(48, 38, 129,0.5);
+border-radius: 10px;
+margin:15px ;
+text-align: center;
+}
+
+.buttn {
+
+	background-color: #6B72E1 ;
+	color: rgb(270, 220, 0,0.9);
+	box-shadow: 10px 5px 50px rgb(48, 38, 129,0.5);
+	font-family: "Danfo", serif;
+	padding: 10px 10px;
+	border-radius: 50px;
+}
+
+.inline{ list-style:none;
+	padding-left: 0px;
+ }
+
+.inline li{
+	display: inline;
+	padding: 10px;
+}
+
+#intro p {margin-bottom: 50px}
+
+@media (max-width:950px){
+	.container
+	{width:700px;
+}}
+
+@media (max-width:720px){
+	.container
+	{width:500px;
+}}
+
+@media (max-width:550px){
+	.container
+	{width:400px;
+}}
+
+
+
+
+
+
+
+
